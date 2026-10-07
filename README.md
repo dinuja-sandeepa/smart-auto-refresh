@@ -72,7 +72,7 @@ git clone https://github.com/dinuja-sandeepa/smart-auto-refresh.git
 3. Navigate to:
 
 ```text
-https://chromewebstore.google.com/detail/ndjhpjfhphiclefeoooopmaiohjhonil?utm_source=item-share-cb
+chrome://extensions/
 ```
 
 4. Enable **Developer mode** in the top-right corner.
@@ -84,6 +84,10 @@ https://chromewebstore.google.com/detail/ndjhpjfhphiclefeoooopmaiohjhonil?utm_so
 7. The **Smart Auto Refresh** extension will appear in your Chrome extensions list.
 
 8. Pin the extension to your toolbar for quick access.
+
+### Install from Chrome Web Store
+
+Install directly from the [Chrome Web Store](https://chromewebstore.google.com/detail/ndjhpjfhphiclefeoooopmaiohjhonil?utm_source=item-share-cb).
 
 ## 🛠️ Usage
 
@@ -105,6 +109,8 @@ smart-auto-refresh/
 ├── manifest.json
 ├── popup.html
 ├── popup.js
+├── background.js
+├── content.js
 │
 ├── icons/
 │   └── Ghost32.webp
